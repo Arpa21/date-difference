@@ -1,6 +1,6 @@
 <h1 align="center">Date Difference</h1>
 
-<p align="center">Create an application that can read in pairs of dates in the following
+<p>Create an application that can read in pairs of dates in the following
 format -
 
     DD MM YYYY, DD MM YYYY
