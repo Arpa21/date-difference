@@ -16,8 +16,6 @@ Where the first date is the earliest, the second date is the latest and the diff
 
 Input can be from a file, or from standard input, as the developer chooses.
 
-Provide test data to exercise the application.
-
 Constraints:
 
 The application may not make use of the platform / SDK libraries for date manipulation
