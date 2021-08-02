@@ -27,7 +27,7 @@ The application can limit calculation on an input range of dates from 1900 to 20
 
 ## Screenshots
 
-<img align="center" width="646" alt="Screen Shot 2021-08-02 at 5 50 41 pm" src="https://user-images.githubusercontent.com/25117442/127823988-a9892430-98e1-48dc-84b4-4046f2b9f151.png">
+<img width="646" alt="Screen Shot 2021-08-02 at 5 50 41 pm" src="https://user-images.githubusercontent.com/25117442/127823988-a9892430-98e1-48dc-84b4-4046f2b9f151.png">
 
 ## Built With
 
