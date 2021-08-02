@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Date Difference</title>
+  </head>
+  <body>
+    <div class="date-difference__container">
+      <div class="date-difference__title">Date Difference!</div>
+      <div class="date-difference__content">
+        <div class="date-difference__input">
+          <label for="firstDate">First Date</label>
+          <input
+            id="firstDate"
+            class="date-difference__input-field"
+            type="date"
+            min="1900-01-01"
+            max="2010-12-31"
+          />
+        </div>
+        <div class="date-difference__input">
+          <label for="secondDate">Second Date</label>
+          <input
+            id="secondDate"
+            class="date-difference__input-field"
+            type="date"
+            min="1900-01-01"
+            max="2010-12-31"
+          />
+        </div>
+      </div>
+      <button
+        type="button"
+        onclick="getDaysDifference()"
+        class="date-difference__button"
+      >
+        Calculate
+      </button>
+      <div class="date-difference__result">
+        Amount of Days: <span id="result"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

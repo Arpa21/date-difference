@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.date-difference__container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.date-difference__container > :not(:first-child) {
+  margin-top: 30px;
+}
+
+.date-difference__title {
+  font-weight: 700;
+}
+
+.date-difference__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.date-difference__input {
+  font-weight: 400;
+}
+
+.date-difference__input > :not(:first-child) {
+  margin-left: 8px;
+}
+
+.date-difference__input-field {
+  font-family: 'Roboto', sans-serif;
+}
+
+.date-difference__button {
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 8px;
+}
+
+.date-difference__result {
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
